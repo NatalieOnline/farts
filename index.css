@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://images.photowall.com/products/58277/birds-in-colorful-sky.jpg?h=699&q=85");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background:linear-gradient(#EEBEDF,#4894B7,#746DA1);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid #746DA1;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #746DA1;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn, #reset-btn, #save-btn {
+    background: #EEBEDF;
+}
+
